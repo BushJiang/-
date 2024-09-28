@@ -3,6 +3,7 @@
 在原数据的基础上，设置以下字段："book"、"title"、"author"、"type"、"source"、"date"和"content"，但是因为在原数据的基础上整理，有些字段的值为空。
 
 # 数据示例
+```python
 [
     {
         "book": "伪自由书",
@@ -24,13 +25,16 @@
     },
     ...
 ]
+```
 
 # 引用信息
 如果引用这个数据集，请使用以下格式：
+```python
 @dataset{BushJiang_LuXun_dataset_2024,
   author = {Bush Jiang},
   title = {Lu Xun Dataset},
   year = {2024},
   version = {1.0},
-  url = {https://github.com/username/repo/data}
+  url = {https://github.com/BushJiang/LuXun_dataset}
 }
+```
